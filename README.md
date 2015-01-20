@@ -8,6 +8,9 @@ Yup, this is a library for generatig static sites written in pure Go. It is a fo
 [hastie](https://github.com/mkaz/hastie) a simple and cool static site generator. This is compatible with hastie,
 which means you can build your hastie website with this library.
 
+I dont't plan to keep compatibility with hastie in the future, so I will keep shaping stuffs as the
+library evolve.
+
 ## Motivation
 
 I have been frustrated when I was looking for a library to use in my project. Thre are plenty os static site generators
@@ -41,7 +44,7 @@ Libhastie, follows the footsteps of other static site generators, it assumes you
 project. The file should be `config.json` but you can also load dynamically the configuration 
 into the configuration object via `Config.Load(path string)
 
-Please for more details visit the hasite page here [https://github.com/mkaz/hastie] there is a good intro into go template
+Please for more details visit the hasite page [here ](https://github.com/mkaz/hastie) there is a good intro into go template
 snd static site project.
 
 A sample config.json file looks like this
@@ -56,7 +59,7 @@ A sample config.json file looks like this
     }
 `
  
- You can use crunch the content of the `test` folder to see what the site may look like.
+You can use crunch the content of the `test` folder to see what the site may look like.
  
 ## State
 
