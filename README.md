@@ -1,4 +1,4 @@
-# libhastie
+# libhastie [![Build Status](https://travis-ci.org/gernest/libhastie.svg)](https://travis-ci.org/gernest/libhastie)
 
 A library for static site generation
 
