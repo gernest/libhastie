@@ -2,14 +2,12 @@
 
 A library for static site generation
 
-## Whaaat?
+## What?
 
-Yup, this is a library for generatig static sites written in pure Go. It is a fork of
+This is a library for generatig static websites. It is a fork of
 [hastie](https://github.com/mkaz/hastie) a simple and cool static site generator. This is compatible with hastie,
 which means you can build your hastie website with this library.
 
-I dont't plan to keep compatibility with hastie in the future, so I will keep shaping stuffs as the
-library evolve.
 
 ## Motivation
 
@@ -18,9 +16,8 @@ but they aren't libraries. Many are commandline utilities. So, I decided to buil
 I forked the hastie project and hacked my ideas in.
 
 ## Warning
-This is still work it progress and I don't intend to keep compatibility with hastie project
-, and expect API to chance without notice(totally unstable API) so use it at your own
-risk, and by the way you can hack it to your needs.
+This is still a work it progress and I don't intend to keep compatibility with hastie project
+, so expect API to change,  use it at your own risk.
 
 
 ## Usage
@@ -41,13 +38,12 @@ Your site structure
 -------
 
 Libhastie, follows the footsteps of other static site generators, it assumes you have a configuration file at the root of your
-project. The file should be `config.json` but you can also load dynamically the configuration 
-into the configuration object via `Config.Load(path string)
+project. The file name should be `config.json` but you can also load dynamically the configuration 
+ via `Config.Load(path string)`
 
-Please for more details visit the hasite page [here ](https://github.com/mkaz/hastie) there is a good intro into go template
-snd static site project.
+For more details about static websites that libhastie can build visit the hastiie page [here ](https://github.com/mkaz/hastie) there is a good intro into go templates snd static website project.
 
-A sample config.json file looks like this
+A sample `config.json` file looks like this
 
     {
       
@@ -59,18 +55,20 @@ A sample config.json file looks like this
     }
 `
  
-You can use crunch the content of the `test` folder to see what the site may look like.
+You can use check the content of the `test` folder to see what the site may look like.
  
 ## State
 
-The library lacks many fancy features, as it looks I only intend to make generating static site easier, so you can add
-whatever you want on top of it.
+The library is not actovely maintained, you can fork it and hack the way you like.
 
 
-## COntributing
+## Contributing
 
 Contributions are warmly welcome.
 
-## Authors
+## Author
 
-geofrey ernest
+Geofrey Ernest
+
+## Licence
+MIT
